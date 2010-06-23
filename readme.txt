@@ -1,9 +1,9 @@
 === BP Blog Author Link ===
 Contributors: wpmuguru
 Tags: buddypress, plugin, author, wpmu 
-Requires at least: 2.7.1
-Tested up to: 2.8.1
-Stable tag: trunk
+Requires at least: 3.0
+Tested up to: 3.0
+Stable tag: 2.8.1
 
 This plugin changes the blog author links on a buddypress site to link to the author's buddypress member profile.
 
@@ -29,6 +29,10 @@ Support can be obtained through:
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Changelog ==
+
+= 2.8.1 =
+* Version for WordPress 3.0
+* Added support for single WordPress installs.
 
 = 2.8 =
 * Original version.
