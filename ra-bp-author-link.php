@@ -42,7 +42,7 @@ function ra_bp_filter_author( $content ) {
 			$blog_url = get_option( 'siteurl' ) . $extra . '/author';
 			return str_replace( $blog_url, $member_url, $content );
 		}
-		return preg_replace( '|/author(/[^/]+/)|', '/' . BP_MEMBERS_SLUG . '$1' . 'profile/', $content );
+		return preg_replace( '|/author(/[^/]+)/?$|', '/' . BP_MEMBERS_SLUG . '$1' . '/profile/', $content );
 	}
 	return $content;
 }
