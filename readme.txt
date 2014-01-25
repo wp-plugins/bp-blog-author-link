@@ -2,7 +2,7 @@
 Contributors: wpmuguru
 Tags: buddypress, plugin, author, wpmu 
 Requires at least: 3.0
-Tested up to: 3.1
+Tested up to: 3.8
 Stable tag: 2.8.1
 
 This plugin changes the blog author links on a buddypress site to link to the author's buddypress member profile.
